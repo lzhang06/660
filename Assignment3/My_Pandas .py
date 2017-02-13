@@ -1,7 +1,6 @@
 
 # coding: utf-8
 
-# In[17]:
 
 import csv
 from collections import OrderedDict
