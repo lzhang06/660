@@ -82,7 +82,7 @@ def inbound():
                     i +=1
                     
                 response['attachments'] = js_attachments
-                response['text'] = 'Hello, I find these on the Stake Overflow.'
+                response['text'] = 'Hello, I find these on the Stack Overflow.'
             
             else:
                 #pick the tags
@@ -115,7 +115,7 @@ def inbound():
                     j+=1
                         
                 response['attachments'] = filter_attachments[:5]
-                response['text'] = 'Hello, I find these on the Stake Overflow.'
+                response['text'] = 'Hello, I find these on the Stack Overflow.'
             
         elif text.startswith(weather_command):
             #get the address from the command
